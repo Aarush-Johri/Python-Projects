@@ -1,0 +1,36 @@
+a = int(input("Enter the 1st number: "))
+b = int(input("Enter the 2nd number: "))
+c = (input("Enter the operater: "))
+if c=='+':
+    print("Addition of", a, "and", b, ":", a+b)
+
+elif c=='*':
+    print("multiplication of", a, "and", b, ":", a*b)
+
+elif c=='/':
+    d=str(input("Do you want the division of a by b, yes or no : "))
+    print(d)
+    if d=='yes':
+        print("Division of", a, "by", b, ":", a/b)
+    else:
+        print("Division of", b, "by", a, ":", b/a)
+
+elif c=='-':
+    e=str(input("Do you want the substraction of a from b, yes or no : "))
+    print(e)
+    if e=='yes':
+        print("substraction of", a, "from", b, ":", a-b)
+
+    else:
+        print("substraction of", b, "from", a, ":", b-a)
+
+elif c=='**':
+    f=str(input("Do you want the exponential of a of b, yes or no : "))
+    if f=='yes':
+        print("exponential of", a, "of", b, ":", a**b)
+
+    else:
+        print("exponential of", b, "of", a, ":", b**a)
+
+else:
+    print()
